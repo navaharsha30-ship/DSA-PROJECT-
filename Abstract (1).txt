@@ -1,0 +1,6 @@
+### Abstract:
+
+Medical image analysis pipelines perform a sequence of mathematical and matrix operations during preprocessing, feature extraction and prediction.
+Different orders of evaluating compatible matrix operations can require different numbers of scalar multiplications.
+This project applies Matrix Chain Multiplication using Interval Dynamic Programming to determine an optimal evaluation order.
+The objective is to minimize computational cost and demonstrate algorithmic optimization in an ML-oriented medical imaging workflow.
